@@ -13,7 +13,6 @@
       font-family: 'Segoe UI', sans-serif;
       margin: 0;
     }
-
     .card {
       background: white;
       padding: 40px;
@@ -21,12 +20,10 @@
       text-align: center;
       box-shadow: 0 10px 25px rgba(0,0,0,0.2);
     }
-
     h1 {
       color: #ff4b5c;
       margin-bottom: 20px;
     }
-
     button {
       padding: 12px 25px;
       font-size: 16px;
@@ -36,20 +33,16 @@
       margin: 10px;
       transition: 0.3s;
     }
-
     .yes {
       background-color: #ff4b5c;
       color: white;
     }
-
     .yes:hover {
       background-color: #e63946;
     }
-
     .no {
       background-color: #ddd;
     }
-
     .no:hover {
       background-color: #bbb;
     }
