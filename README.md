@@ -116,7 +116,20 @@
         setTimeout(() => confetti.remove(), 3000);
       }
     }
+    
   </script>
+<!-- Background Music -->
+<audio id="bgm" loop>
+  <source src="tere-mere.mp3" type="audio/mpeg">
+</audio>
+
+<script>
+  // Play music after first user interaction (browser requirement)
+  document.body.addEventListener('click', function () {
+    const music = document.getElementById('bgm');
+    music.play();
+  }, { once: true });
+</script>
 
 </body>
 </html>
