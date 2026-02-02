@@ -14,7 +14,6 @@
       font-family: 'Segoe UI', sans-serif;
       overflow: hidden;
     }
-
     .box {
       background: white;
       padding: 40px 50px;
@@ -23,12 +22,10 @@
       box-shadow: 0 15px 30px rgba(0,0,0,0.25);
       z-index: 10;
     }
-
     h1 {
       color: #ff3b6f;
       margin-bottom: 25px;
     }
-
     button {
       padding: 12px 28px;
       font-size: 16px;
@@ -37,17 +34,14 @@
       cursor: pointer;
       margin: 10px;
     }
-
     .yes {
       background-color: #ff3b6f;
       color: white;
     }
-
     .no {
       background-color: #ddd;
       position: absolute;
     }
-
     /* Shake + Spin animation */
     @keyframes shakeSpin {
       0% { transform: translateX(0) rotate(0); }
@@ -56,11 +50,9 @@
       75% { transform: translateX(-5px) rotate(-10deg); }
       100% { transform: translateX(0) rotate(0); }
     }
-
     .shake {
       animation: shakeSpin 0.4s;
     }
-
     /* Confetti */
     .confetti {
       position: fixed;
@@ -70,7 +62,6 @@
       top: -10px;
       animation: fall 3s linear forwards;
     }
-
     @keyframes fall {
       to {
         transform: translateY(110vh) rotate(720deg);
